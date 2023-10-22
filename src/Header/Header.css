@@ -1,0 +1,106 @@
+html{
+    font-size: 60%;
+    box-sizing: border-box;
+    margin-right: 0px;
+}
+
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #f0f2f5;
+    margin-right: 0;
+}
+
+.logo img{
+    width: 50px;
+    height:50px;
+    padding: 2.5rem;
+}
+
+.HomePage{
+    display: grid;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 6rem;
+    border: .1rem black;
+    margin-right: 20px;
+}
+
+.first-header{
+    display: flex;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    background-color: #f0f2f5;
+    border-radius: 1rem;
+    height: 3rem;
+    padding: 0 20px;
+    margin: 35px 7px;
+    font-size: 20px;
+}
+
+input[type=search]{
+    width: 100%;
+    padding: 6px 27px;
+    box-sizing: border-box;
+    outline-width: 50px;
+    background-color: #f0f2f5;
+    border: none;
+}
+
+input::placeholder{
+    font-size: 1.5rem;
+}
+
+.middle-header{
+    display: flex;
+    align-items: center;
+    flex: 0%;
+    justify-content: center;
+    width: 1%;
+    margin-left: 0;
+}
+
+.Icon{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 0 50px;
+}
+
+.third-header{
+    display: flex;
+    align-items: center;
+    margin-right: 3rem;
+    font-size: 3rem;
+}
+
+.third-header > div{
+    padding-left: 3.5rem;
+}
+
+.Plus{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 0px 50px;
+    border-radius: 50%;
+    height: 2.7rem;
+    background-color: #f0f2f5;
+}
+
+.plus img{
+    border-radius: 10px;
+}

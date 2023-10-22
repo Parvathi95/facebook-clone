@@ -1,0 +1,32 @@
+.cart{
+    width: 55%;
+    height: 20%;
+    background-color: rgb(185, 184, 184);
+    margin-left: 25%;
+    margin-top: 5%;
+}
+
+.text-video{
+    text-align: center;
+    padding-top: 4%;
+    font-size: 30px;
+    font-style: oblique;
+}
+
+.facebook{
+    padding: 2rem 3rem;
+}
+
+.video{
+    width:60rem;
+    height:30rem ;
+    margin-left: 10.5%;
+}
+
+.course-video{
+    font-size:2rem;
+    font-weight: bold;
+    padding-left: 20rem;
+    padding-top: 2rem;
+}
+

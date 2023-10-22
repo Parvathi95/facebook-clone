@@ -1,0 +1,41 @@
+.cards{
+    width: 95%;
+    height: 20rem;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-self: flex-start;
+    border: 2px black solid;
+    margin-top: 5rem;
+    margin-left: 4.5rem;
+}
+
+.people{
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 1.3rem;
+}
+
+.user-img{
+    width: 15rem;
+    height: 15rem;
+    padding-top: 1rem;
+}
+
+.card-title{
+    font-size: 2rem;
+    display: flex;
+    font-weight: bold;
+}
+
+.user-btn{
+    width: 25rem;
+    height: 6rem;
+    text-align: center;
+    align-items: center;
+}
+
+.user-btn:hover{
+    transition: all 0.5s ease-in;
+}
